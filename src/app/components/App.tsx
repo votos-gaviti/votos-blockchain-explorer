@@ -106,7 +106,7 @@ export class App extends React.Component<IAppProps> {
                                 translation={translation}
                                 userPreferences={this.props.userPreferences}
                             />
-                            <ToolbarItem title="Blockchain Medellín Decide" >
+                            <ToolbarItem title={translation.get("toolbar.alethio.label")} >
                                 <ExternalLink href="https://company.aleth.io" rel="noopener noreferrer">
                                     <ToolbarIconButton Icon={BriefcaseIcon} />
                                 </ExternalLink>

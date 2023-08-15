@@ -15,7 +15,7 @@
     }, {
         "uri": "plugin://aleth.io/eth-memento?v=2.0.2",
         "config": {
-            "apiBasePath": "http://localhost:3001/api/explorer"
+            "apiBasePath": "http://a268bdd5050f8481bb6fb276e2d86b96-73405260.us-east-2.elb.amazonaws.com:3001/api/explorer"
         }
     }],
 

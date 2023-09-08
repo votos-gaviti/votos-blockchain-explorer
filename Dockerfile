@@ -27,7 +27,7 @@ COPY .docker/nginx.conf /etc/nginx/conf.d/default.conf
 
 WORKDIR /app
 
-COPY config.memento.json ./config.default.json
+COPY config.default.json ./config.default.json
 COPY set-env-vars.js .
 COPY .docker/entrypoint.sh .
 
